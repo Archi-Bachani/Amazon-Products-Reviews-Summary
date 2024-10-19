@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+driver/
+sheets/
 # C extensions
 *.so
 
@@ -35,7 +36,6 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -123,9 +123,9 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+# .venv
 env/
-venv/
+# venv/
 ENV/
 env.bak/
 venv.bak/
